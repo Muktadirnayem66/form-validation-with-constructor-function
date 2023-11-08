@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <div class="container">
+    <h2>Form Validation</h2>
+    <form id="signup">
+       <div class="username">
+        <label for="">User Name:</label>
+        <input id="namefeild" name="Name" type="text" placeholder="enter your name">
+        <!-- <span id="errorName" >Error Name Message</span> -->
+        <div id="errorName"></div>
+       </div>
+       <div class="useremail">
+        <label for="">User Email:</label>
+        <input id="emailfeild" name="Email" type="email" placeholder="enter your email">
+        <!-- <span id="errorEmail">Error Email Message</span> -->
+        <div id="errorEmail"></div>
+       </div>
+        <button id="submit" type="submit">Submit</button>
+       
+    </form>
+   </div>
+
+
+   <script src="./UseingDom.js"></script>
+   <script src="./index.js"></script>
+
+</body>
+</html>
